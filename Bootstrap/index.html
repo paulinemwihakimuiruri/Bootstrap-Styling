@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#team">Our Team</a> </li>
+                            <li><a class="dropdown-item" href="#services">What We Offer</a> </li>
+                            <li><a class="dropdown-item" href="#testimonials">Testimonials</a> </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- Body -->
+
+    <div class="container text-centre mt-5" id="body">
+        <h1 class="display-4">Welcome to My Website</h1>
+        <p class="lead">Building beautiful pages faster with Bootstrap</p>
+        <button class="btn btn-primary btn-lg">Get started</button>
+
+        <div class="mt-4">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/045/132/934/small_2x/a-beautiful-picture-of-the-eiffel-tower-in-paris-the-capital-of-france-with-a-wonderful-background-in-wonderful-natural-colors-photo.jpg"
+                class="img-fluid rounded" alt="Sample Image">
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-centre mb-4">Our Features</h2>
+        <div class="row">
+            <!-- feature 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-centre">
+                        <h5 class="card-title"> Fast Delivery</h5>
+                        <p class="card-text">We ensure quick delivery across all platforms and devices</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- feature 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-centre">
+                        <h5 class="card-title">Responsive Design</h5>
+                        <p class="card-text">Looks great on phones, tablets, and desktops alike.</p>
+                        <a class="btn btn-outline-primary" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- feature 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-centre">
+                        <h5 class="card-title">Easy to Customize</h5>
+                        <p class="card-text">Change colors, layouts, and styles with ease.</p>
+                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container mt-5" id="testimonials">
+        <h2 class="text-centre mb-4">What Our Users Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 h-100">
+                    <blockquote class="blockquote mb-0">
+                        <p>"This service changed the way I work super fast!"</p>
+                        <footer class="blockquote-footer mt-2">Jane Mwangi</footer>
+                    </blockquote>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 h-100">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Clean design and great support team. Highly recommended!"</p>
+                        <footer class="blockquote-footer mt-2">David Otieno</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 h-100">
+                    <blockquote class="blockquote mb-0">
+                        <p>"A solid solution for any modern website It's a 10/10!"</p>
+                        <footer class="blockquote-footer mt-2">Aisha Kareem</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- what we offer -->
+
+    <div class="container mt-5" id="services">
+        <h2 class="text-centre mb-4">Our services</h2>
+        <div class="row text-centre">
+            <div class="col-md-4">
+                <h5>Web Design</h5>
+                <p>We build sleek and modern websites that impress your Users.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Consulting</h5>
+                <p>Need help with your tech stack or idea? We're here to guide.</p>
+            </div>
+            <div class="col-md-4">
+                <h5>support</h5>
+                <p>24/7 support to make sure your project runs smoothly.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to action -->
+
+    <div class="container text-centre mt-5 p-5 bg-light rounded">
+        <h2>Ready to get started?</h2>
+        <p>Sign up today and take your project to the next level.</p>
+        <a href="#" class="btn btn-success btn-lg mt-2">Join Now</a>
+    </div>
+
+    <!-- Team section -->
+
+    <div class="container mt-5" id="team">
+        <h2 class="text-centre mb-4">Meet Our Team</h2>
+        <div class="row text-centre">
+            <div class="col-md-4">
+                <img src="images/woman1.jpeg" class="rounded-circle mb-2" alt="Team Member">
+                <h6>Faith Muthoni</h6>
+                <p>Lead Designer</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/woman1.jpeg" class="rounded-circle mb-2" alt="Team Member">
+                <h6>John Kimani</h6>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/woman1.jpeg" class="rounded-circle mb-2" alt="Team Member">
+                <h6>Susan Wanjiku</h6>
+                <p>Product Manager</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ  -->
+
+    <div class="container mt-5">
+        <h2 class="text-centre mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What
+                        is this website for?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">This website helps you create responsive web designs quickly using
+                        Bootstrap.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Is
+                        it free to use?</button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Yes! Bootstrap is open-source and free to use for any kind of project.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer class="bg-primary text-white mt-5 py-4" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-centre text-md-start mb-3 mb-md-0">
+                    <h5>My Site</h5>
+                    <p class="mb-0">Bringing ideas into life.</p>
+                </div>
+                <div class="col-md-4 text-centre mb-3 mb-md-0">
+                    <a href="#" class="text-white me-3 text-decoration-none">Privacy</a>
+                    <a href="#" class="text-white me-3 text-decoration-none">Terms</a>
+                    <a href="#" class="text-white me-3 text-decoration-none">Support</a>
+                </div>
+
+                <!-- copyright -->
+                <div class="col-md-4 text-centre text-md-end">
+                    <p class="mb-0">&copy; 2025 MySite. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
